@@ -1,0 +1,7 @@
+project: rnshah9/mayhem-precomp-cpp
+target: precomp
+image: ghcr.io/rnshah9/playground:precomp-cpp
+
+cmds:
+  - cmd: /precomp-cpp/build/precomp @@
+    filepath: /test.zip
