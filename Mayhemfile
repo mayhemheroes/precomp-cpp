@@ -5,3 +5,5 @@ image: ghcr.io/rnshah9/playground:precomp-cpp
 cmds:
   - cmd: /precomp-cpp/build/precomp @@
     filepath: /test.zip
+  - cmd: /precomp-cpp/build/precomp -r @@
+    filepath: /test.pcf
