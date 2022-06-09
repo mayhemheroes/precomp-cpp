@@ -1,8 +1,6 @@
-project: rnshah9/mayhem-precomp-cpp
+project: precomp-cpp
 target: precomp
 
 cmds:
-  - cmd: /precomp-cpp/build/precomp @@
-    filepath: /test.zip
-  - cmd: /precomp-cpp/build/precomp -r @@
+  - cmd: /precomp-cpp/build/precomp -r /test.pcf
     filepath: /test.pcf
