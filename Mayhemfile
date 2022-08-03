@@ -2,5 +2,4 @@ project: precomp-cpp
 target: precomp
 
 cmds:
-  - cmd: /precomp-cpp/build/precomp -r /test.pcf
-    filepath: /test.pcf
+  - cmd: /install/bin/precomp -r @@
