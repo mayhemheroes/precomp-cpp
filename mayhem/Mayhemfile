@@ -1,0 +1,8 @@
+# Target name `precomp` is preserved from the original integration (run-history parity).
+# /mayhem/precomp is a file-input harness over the `precomp -r` reconstruction path
+# (see mayhem/harness_precomp.cpp); it does all scratch I/O in a private /tmp workdir.
+project: precomp-cpp
+target: precomp
+
+cmds:
+  - cmd: /mayhem/precomp @@
