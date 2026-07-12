@@ -1,0 +1,5 @@
+project: precomp-cpp
+target: precomp
+
+cmds:
+  - cmd: /install/bin/precomp -r @@
